@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family:'Poppins', sans-serif; */
+    background-color: #eff0f5;
+}
+.top{
+    width: 100vw;
+    height: 60px;
+    background-color: aqua;
+}
+.order h1{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 12px;
+}
+.container{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: space-between; */
+    /* padding: 10px; */
+    margin: 2px auto;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: #fafaff; */
+}
+.container .idDate{
+    border-bottom: 1px solid #aaa;
+    padding: 7px;
+}
+.container .idDate .id span{
+    color: #1a9cb7;
+}
+.container .idDate p{
+    color: #565959!important;
+    margin: 2px;
+    margin-bottom: -5px;
+    font-size: 12px;
+}
+.container .idDate h4{
+    color: #111;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2px;
+    font-size: 14px;
+}
+.container table{
+    /* display: flex; */
+    width: 100%;
+    /* text-align: left; */
+    /* justify-content: space-between;
+    align-content: space-between */
+    
+}
+.container .content{
+    /* margin-bottom: 5px; */
+    border-bottom: 12px solid #eff0f5;
+    /* border-bottom: 12px solid #ffffff; */
+    font-size: 14px;
+    padding-bottom: 24px;
+}
+.container .orders{
+    display: grid;
+    padding: 5px 0 5px 20px;
+    /* grid-template-columns: name name name name qty qty status status status dDate dDate dDate; */
+    grid-template-columns: auto auto auto auto auto;
+}
+.container .orders .name{
+    grid-column: 1/3;
+    display: flex;
+    gap: 10px;
+}
+.container .orders .name img{
+    width: 60px;
+}
+.container .orders .center{
+    display: flex;
+    align-items: center;
+}
+.container .orders .qty span{
+    color: #c9c9c9;
+}
+.status span{
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 24px;
+    background-color: #eff0f5;
+}
+.container .orders .dDate{
+    width: 100px;
+    text-align: right;
+}

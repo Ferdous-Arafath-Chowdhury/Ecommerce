@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+			<title>
+                    Organizer Login
+			</title>
+
+			<style type="text/css">
+				
+				.name{
+
+				    padding: 6px 37px 9px 19px;
+				    border-radius: 5px;
+				    outline: none;
+				    font-family: cursive;
+				    border:1px solid white;
+
+
+				}
+				.Btn{
+
+					padding: 5px 71px 5px 72px;
+				    margin: 1;
+				    margin-left: 30px;
+				    border-radius: 4px;
+				
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-family: cursive;
+                    background-color:  black;
+                    color: #fff;
+                    font-weight: 700;
+                    border:1px solid blue;
+
+   
+                    }
+                    .Btn:hover{
+
+                    	background-color:  green;
+                    }
+
+
+
+				.form_login{
+
+					border: 2px solid white;
+				    width: 274px;
+				    height: 266px;
+				    margin: 97px 10px 10px 507px;
+				    /* padding: 27px; */
+				    padding: 13px 10px 12px 27px;
+				    border-radius: 8px;
+				    background-color: rgba(0,0,0,.6);
+
+				 }
+
+
+				 body{
+
+				 	background:url(ind4.jpg);
+				 	background-attachment: fixed;
+				 	background-size: cover;
+				 	background-repeat: no-repeat;
+
+
+				 }
+
+
+				 .login_topic{
+
+				 	text-align: center;
+				 	font-family: cursive;
+				 	color: #fff;
+				 }
+
+
+
+
+
+			</style>
+
+	</head>
+
+		<body>
+
+			<form action="adminlogin.php" method="POST" class="form_login">
+
+				<h3 class="login_topic">login</h3>
+
+					<input type="text" name="Username" placeholder="Enter username here" class="name">
+					<br>
+					<br>
+					<input type="password" name="Password" placeholder="password" class="name">
+					<br>
+					<br>
+					<!-- <input type="submit" name="Btn" value="Login" class="Btn"> -->
+                    <button class="Btn" type="submit">Login </button> &nbsp;&nbsp;
+
+			</form>
+
+
+		</body>
+
+
+</html>
